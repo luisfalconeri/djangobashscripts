@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+echo "Starting Django Site"
+
+source bin/activate
+cd src
+python manage.py runserver
